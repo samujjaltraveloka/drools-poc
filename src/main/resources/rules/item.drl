@@ -1,0 +1,17 @@
+import  com.traveloka.poc.droolsengine.domain.Item;
+
+dialect "mvel"
+
+rule "One"
+    when
+        itemInstance:Item(type == "A" && price > 100);
+    then
+        itemInstance.setDiscount(10);
+end
+
+rule "11"
+    when
+        itemInstance:Item(type == "B" && price > 150);
+    then
+        itemInstance.setDiscount(20);
+end
