@@ -1,6 +1,6 @@
-package com.traveloka.poc.droolsengine.Service.impl;
+package com.traveloka.poc.droolsengine.service.impl;
 
-import com.traveloka.poc.droolsengine.Service.PriceCalculator;
+import com.traveloka.poc.droolsengine.service.PriceCalculator;
 import com.traveloka.poc.droolsengine.domain.Item;
 import org.drools.core.base.RuleNameMatchesAgendaFilter;
 import org.kie.api.runtime.KieContainer;

@@ -1,4 +1,4 @@
-package com.traveloka.poc.droolsengine.Service;
+package com.traveloka.poc.droolsengine.service;
 
 import com.traveloka.poc.droolsengine.domain.Item;
 

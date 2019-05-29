@@ -1,7 +1,7 @@
 package com.traveloka.poc.droolsengine.controller;
 
 
-import com.traveloka.poc.droolsengine.Service.PriceCalculator;
+import com.traveloka.poc.droolsengine.service.PriceCalculator;
 import com.traveloka.poc.droolsengine.domain.Item;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
